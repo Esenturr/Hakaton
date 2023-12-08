@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active,
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  -moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* !----------breadcrumbs start--------- */
+.breadcrumbs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 46px 0 24px 0;
+}
+.breadcrumbs__container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+.breadcrumbs__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid #f16a21;
+  cursor: pointer;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.breadcrumbs__list li {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  color: #a9a7a6;
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative;
+}
+/* !----------breadcrumbs finish--------- */
+
+/* !----------contacts start--------- */
+.contacts__container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.contacts__title {
+  font-family: "RoadRadio";
+  color: #232323;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 19px;
+}
+.contacts__contacts {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contacts__contact,
+.contacts__contact_short {
+  width: 380px;
+  height: 267px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 40px 32px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 33px;
+}
+.contacts__soc {
+  width: 790px;
+  height: 219px;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 33px;
+  box-sizing: border-box;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts__contact-name {
+  font-weight: 800;
+  font-size: 28px;
+  color: #232323;
+}
+.contacts__contact-text {
+  font-weight: 500;
+  font-size: 20px;
+  color: #232323;
+  margin-top: 16px;
+}
+.contacts__contact-button {
+  width: 217px;
+  height: 41px;
+  background: #f16a21;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  bottom: 40px;
+  left: 32px;
+}
+.contacts__contact-icon {
+  position: absolute;
+  bottom: 40px;
+  right: 32px;
+}
+.contacts__soc-title {
+  font-weight: 800;
+  font-size: 28px;
+  color: #232323;
+}
+.contacts__soc-soc {
+  width: 371px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.contacts__soc-soc a span {
+  margin-top: 7px;
+  color: #232323;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration-line: underline;
+}
+/* !----------contacts finish--------- */

@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Reset styles */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active,
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+/* General styles */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  -moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/* !----------breadcrumbs start--------- */
+.breadcrumbs__container {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.breadcrumbs__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  width: 28px;
+  height: 28px;
+  border-radius: 5px;
+  border: 1px solid #f16a21;
+  cursor: pointer;
+}
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.breadcrumbs__list li {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  color: #a9a7a6;
+  margin-right: 20px;
+  cursor: pointer;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+/* !----------breadcrumbs finish--------- */
+
+/* !----------about start--------- */
+.about__container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.about__title {
+  font-family: "RoadRadio";
+  color: #232323;
+  font-weight: 900;
+  font-size: 40px;
+  margin-top: 19px;
+}
+.about__block {
+  width: 100%;
+  background: linear-gradient(
+    105.27deg,
+    #d2914e 31.72%,
+    #962e8f 77.95%,
+    #6830bd 95.58%
+  );
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 32px;
+  padding: 50px 32px;
+  position: relative;
+}
+.about__block-title {
+  font-weight: 800;
+  font-size: 35px;
+  color: #fff;
+  display: block;
+}
+.about__block-text {
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+  margin-top: 16px;
+  display: block;
+}
+.about__block-title:last-of-type {
+  margin-top: 80px;
+}
+.about__block-text {
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+  margin-top: 16px;
+  display: block;
+}
+.about__block-bear:first-of-type {
+  top: -146px;
+  right: -50px;
+  width: 215px;
+  height: 292px;
+  object-fit: cover;
+}
+.about__block-bear:last-of-type {
+  transform: rotate(-4.99deg);
+  bottom: -240px;
+  left: -35px;
+  width: 259.01px;
+  height: 308.61px;
+  object-fit: cover;
+}
+.about__subtitle {
+  font-weight: 800;
+  font-size: 35px;
+  color: #232323;
+  margin-top: 60px;
+}
+.about__pluses {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 890px;
+}
+.about__pluses-plus {
+  width: 200px;
+  height: 225px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about__pluses-plus img {
+  margin-top: 33px;
+}
+.about__pluses-plus span:first-of-type {
+  font-weight: 800;
+  font-size: 22px;
+  margin-top: 30px;
+  color: #232323;
+}
+.about__pluses-plus span:last-of-type {
+  width: 116px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 17px;
+  color: #232323;
+  margin-top: 6px;
+}
+.about__subtitle:last-of-type {
+  margin-top: 80px;
+}
+.about__geog {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+.about__geog span {
+  font-weight: 500;
+  font-size: 25px;
+  color: #232323;
+}
+.about__geog img {
+  margin-left: 9px;
+}
+/* !----------about finish--------- */
